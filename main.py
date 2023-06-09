@@ -51,7 +51,7 @@ if question3 == 'голубой-коричневый':
 else:
     st.write('Ответ неверен')
 
-question4 = st.radio("какую максимальную температуру выдерживае человек ?",
+question4 = st.radio("Какую максимальную температуру выдерживае человек ?",
     ('59˚С', '170-180˚С', '130˚С'))
 if question4 == '170-180˚С':
     st.write('Ответ верен')
@@ -59,7 +59,7 @@ if question4 == '170-180˚С':
 else:
     st.write('Ответ неверен')
 
-question5 = st.radio("с какой скоростью чихает человек ?",
+question5 = st.radio("С какой скоростью чихает человек ?",
                      ('100 km/h', '190km/h', '160km/h'))
 if question5 == '160km/h':
     st.write('Ответ верен')
@@ -68,7 +68,7 @@ else:
     st.write('Ответ неверен')
 
 
-question6 = st.radio("сколько весит кожа средниго мужчины ?",
+question6 = st.radio("Сколько весит кожа средниго мужчины ?",
                      ('9kg', '15kg', '5kg'))
 if question6 == '5kg':
     st.write('Ответ верен')
@@ -76,28 +76,28 @@ if question6 == '5kg':
 else:
     st.write('Ответ неверен')
 
-question7 = st.radio("во сколько раз кость человека прочнее бетона ?",
+question7 = st.radio("Во сколько раз кость человека прочнее бетона ?",
                      ('x6', 'x10', 'x4'))
 if question7 == 'x4':
     st.write('Ответ верен')
     right_quest += 1
 else:
     st.write('Ответ неверен')
-question8 = st.radio("какое количество запохов может помнить человек?",
+question8 = st.radio("Какое количество запохов может помнить человек?",
                      ('70k', '150k', '50k'))
 if question8 == '50k':
     st.write('Ответ верен')
     right_quest += 1
 else:
     st.write('Ответ неверен')
-question9 = st.radio("сколько km нервов в теле человека?",
+question9 = st.radio("Сколько km нервов в теле человека?",
                      ('140km',' 200km ', '72km'))
 if question9 == '72km':
     st.write('Ответ верен')
     right_quest += 1
 else:
     st.write('Ответ неверен')
-question10 = st.radio("из скольки костей состоит череп человека  ?",
+question10 = st.radio("Из скольки костей состоит череп человека  ?",
                      ('29','30', '47'))
 if question10 == '29':
     st.write('Ответ верен')
